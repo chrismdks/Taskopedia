@@ -7,11 +7,14 @@ function MainHeader(){
     <h1>REACT COURSE</h1>
   )
 }
+
+const subHeaderStyle={color:"blueviolet",backgroundColor:"lightgray"};
 function SubHeader(){
   return(
-    <h2>This is an exciting course!</h2>
+    <h2 style={subHeaderStyle}>This is an exciting course!</h2>
   )
 }
+
 function Header(){
   return(
     <div>
@@ -23,7 +26,7 @@ function Header(){
 
 function Footer(){
   return(
-    <p>Happy Coding!</p>
+    <p style={{color:"gray",backgroundColor:"black"}}>Happy Coding!</p>
   )
 }
 
