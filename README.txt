@@ -13,3 +13,15 @@ git status
 git add path path2
 git commit -m "...."
 git push origin main
+
+*** RULES OF JSX COMPONENTS ***
+1. Component names must be PASCAL casing
+--- function Footer() {} , <Footer />
+2. Props (attributes) must be camel casing
+--- <input maxLength={5}>
+3. Inline style is an Object, so it must be enclosed in double curly brackets
+--- <p style={{color:"gray",backgroundColor:"black"}}>Happy Coding!</p>
+4. In props, Integer and Bool will go in {} and String in ""
+--- <input maxLength={5} readOnly={false} placeholder="Ben">
+5. 'class' need to be replaced with 'className'
+--- <h1 className="myClass">
