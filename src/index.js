@@ -2,16 +2,31 @@ import ReactDOM from 'react-dom/client';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-function Header(){
+function MainHeader(){
   return(
     <h1>REACT COURSE</h1>
   )
 }
+function SubHeader(){
+  return(
+    <h2>This is an exciting course!</h2>
+  )
+}
+function Header(){
+  return(
+    <div>
+      <MainHeader />
+      <SubHeader />
+    </div>
+  )
+}
+
 function Footer(){
   return(
     <p>Happy Coding!</p>
   )
 }
+
 function MainBody(){
   return(
     <div>
