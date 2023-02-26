@@ -42,6 +42,9 @@ function MainBody(){
         <li>Basic Foundation</li>
         <li>Functional & Class Components</li>
       </ul>
+      <div>
+        Search : <input maxLength={5} placeholder="Enter Task"/>
+      </div>
     </div>
   )
 }
