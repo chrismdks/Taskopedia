@@ -4,7 +4,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function MainHeader(){
   return(
-    <h1>REACT COURSE</h1>
+    <h1 className="text-primary">REACT COURSE</h1>
   )
 }
 
