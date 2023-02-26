@@ -38,3 +38,10 @@ Copy import command and paste in Student.jsx file (import {faker} from '@faker-j
 Go to: https://fakerjs.dev/api/
 Search for the desired image (e.g. type "avatar")
 Copy usage command and paste where needed (e.g. in <img> tag: src={faker.image.avatar()})
+
+Another useful site: lorem.space
+Scroll down to Random Face Picture section and copy the command.
+Use it as prop.
+For example, in index.js file, in MainBody, paste the link as a prop with name "pic" (pic="https://api.lorem.space/image/face?w=150&h=150").
+If you use it in more than one different objects, change the height a bit to render a different image (pic="https://api.lorem.space/image/face?w=150&h=152").
+Fetch it in Student.jsx file

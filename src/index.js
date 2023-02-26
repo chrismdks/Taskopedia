@@ -26,8 +26,8 @@ root.render(
     <Header />
     <MainBody />
     <span>Students Enrolled:</span>
-    <Student name="Chrisanthi Mihelioudakis" xp={2} />
-    <Student name="Michael Tsougranis" xp={7}/>
+    <Student name="Chrisanthi Mihelioudakis" xp={2} pic="https://api.lorem.space/image/face?w=150&h=150"/>
+    <Student name="Michael Tsougranis" xp={7} pic="https://api.lorem.space/image/face?w=150&h=151"/>
     <Footer />
   </div>
 );
