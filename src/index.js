@@ -26,7 +26,8 @@ root.render(
     <Header />
     <MainBody />
     <span>Students Enrolled:</span>
-    <Student />
+    <Student name="Chrisanthi Mihelioudakis" xp={2} />
+    <Student name="Michael Tsougranis" xp={7}/>
     <Footer />
   </div>
 );
