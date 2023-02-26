@@ -1,9 +1,8 @@
-function Students(){
+function Student(){
     const fullname = "Chrisanthi Mihelioudakis";
     const xp = 2;
     return(
         <div className='container p-4'>
-        <div className='row'>Students Enrolled</div>
         <div className='row border'>
             <div className='col-2'> Image </div>
             <div className='col-5'> Full Name </div>
@@ -17,4 +16,4 @@ function Students(){
         </div>
     )
 }
-export default Students;
+export default Student;
