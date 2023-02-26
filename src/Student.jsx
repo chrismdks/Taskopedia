@@ -1,3 +1,5 @@
+import {faker} from '@faker-js/faker';
+
 function Student(props){
     return(
         <div className='container p-4'>
@@ -7,7 +9,7 @@ function Student(props){
             <div className='col-5'> Coding Experience </div>
         </div>
         <div className='row border'>
-            <div className='col-2'> <img className='w-100' src={`https://ui-avatars.com/api/?name=${props.name}`} alt="Student's Avatar"/> </div>
+            <div className='col-2'> <img className='w-100' src={faker.image.avatar()} alt="Student's Avatar"/> </div>
             <div className='col-5'> {props.name} </div>
             <div className='col-5'> {props.xp} years </div>
         </div>

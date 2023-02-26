@@ -25,3 +25,16 @@ git push origin main
 --- <input maxLength={5} readOnly={false} placeholder="Ben">
 5. 'class' need to be replaced with 'className'
 --- <h1 className="myClass">
+
+
+*** 3rd PARTY LIBRARIES ***
+* Example:
+Go to: https://fakerjs.dev/guide/
+Scroll to Installation section and copy npm command (npm install @faker-js/faker --save-dev)
+Paste in terminal and press enter.
+When done, you can see the installed library in package.json file
+Go back to: https://fakerjs.dev/guide/usage.html
+Copy import command and paste in Student.jsx file (import {faker} from '@faker-js/faker';) 
+Go to: https://fakerjs.dev/api/
+Search for the desired image (e.g. type "avatar")
+Copy usage command and paste where needed (e.g. in <img> tag: src={faker.image.avatar()})
