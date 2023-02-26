@@ -32,12 +32,15 @@ function Footer(){
 }
 
 function MainBody(){
+  const topic = "React JS"; //types of variables: const, let, var
+  const totalLectures = 3;
   return(
     <div>
-      <p>In this course, we will learn react js by building TaskOPedia!</p>
+      <p>In this course, we will learn {topic} by building TaskOPedia!<br/>
+      Total Lectures - {totalLectures}</p>
       <ul>
-        <li>Call Ben</li>
-        <li>Go to Walmart</li>
+        <li>Basic Foundation</li>
+        <li>Functional & Class Components</li>
       </ul>
     </div>
   )
