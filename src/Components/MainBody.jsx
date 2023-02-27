@@ -1,7 +1,7 @@
 import Student from './Student';
 import StudentReview from './StudentReview';
 
-function MainBody(){
+const MainBody = () => {
     const topic = "React JS"; //types of variables: const, let, var
     const totalLectures = 3;
     return(

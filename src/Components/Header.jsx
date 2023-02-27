@@ -18,7 +18,7 @@ function SubHeader(){
     )
 }
   
-function Header(){
+const Header = () => {
     return(
         <div>
             <MainHeader />

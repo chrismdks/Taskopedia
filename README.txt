@@ -52,3 +52,14 @@ Scroll down to CDN section and copy the link command
 Paste in index.html (<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">)
 Go back to https://icons.getbootstrap.com/ and search for desired icon (e.g. type "thumbs up")
 In Icon font section, copy link and paste in your <div> tag.
+
+*** CLASS vs FUNCTIONAL COMPONENTS ***
+Class components are less common. 
+Typically the are used when you need the extra functionality of state and some other features that are not available in functional components.
+They require a render() method which returns an HTML element.
+They are stateful and have lifecycle methods.
+
+Functional Components are more common.
+They don't have a render() method. They directly return HTML element or nothing.
+They are stateless and do not have lifecycle methods.
+BUT! They have hooks (closures). With the help of hooks we can accomplish almost everything we can do with class components. E.g. we can have state, lifecycle methods etc.
