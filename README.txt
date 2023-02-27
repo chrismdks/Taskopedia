@@ -39,9 +39,16 @@ Go to: https://fakerjs.dev/api/
 Search for the desired image (e.g. type "avatar")
 Copy usage command and paste where needed (e.g. in <img> tag: src={faker.image.avatar()})
 
-Another useful site: lorem.space
+Others: 
+-> lorem.space
 Scroll down to Random Face Picture section and copy the command.
 Use it as prop.
 For example, in index.js file, in MainBody, paste the link as a prop with name "pic" (pic="https://api.lorem.space/image/face?w=150&h=150").
 If you use it in more than one different objects, change the height a bit to render a different image (pic="https://api.lorem.space/image/face?w=150&h=152").
 Fetch it in Student.jsx file
+
+-> https://icons.getbootstrap.com/
+Scroll down to CDN section and copy the link command
+Paste in index.html (<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">)
+Go back to https://icons.getbootstrap.com/ and search for desired icon (e.g. type "thumbs up")
+In Icon font section, copy link and paste in your <div> tag.

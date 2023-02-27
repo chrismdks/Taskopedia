@@ -1,4 +1,5 @@
 import Student from './Student';
+import StudentReview from './StudentReview';
 
 function MainBody(){
     const topic = "React JS"; //types of variables: const, let, var
@@ -13,7 +14,9 @@ function MainBody(){
         </ul>
         <span>Students Enrolled:</span>
         <Student name="Chrisanthi Mihelioudakis" xp={2} pic="https://api.lorem.space/image/face?w=150&h=150"/>
-        <Student name="Michael Tsougranis" xp={7} pic="https://api.lorem.space/image/face?w=150&h=151"/>
+        <Student name="Michael Tsougranis" xp={7} pic="https://api.lorem.space/image/face?w=150&h=151">
+          <StudentReview/>
+        </Student>
       </div>
     )
 }
